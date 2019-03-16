@@ -72,25 +72,28 @@ body{
     color: #171a21;
     text-decoration: none;
 }
-
-.main_menu li:hover ul{
-    display: block;
-}
 .main_menu li:hover{
     background: white;
     opacity: 0.95;
 }
+.main_menu li:hover > ul{
+    display: block;
+}
+
 .main_menu li ul li ul{
     left:150px;
     top: 0;
 }
-.main_menu li ul li ul li{
+/*.main_menu li ul li ul li{
+    display: none;
+}*/
+.main_menu li > ul{
     display: none;
 }
-
+/*
 .main_menu li ul li:hover ul li{
     display: block;
-}
+}*/
 
 
 
